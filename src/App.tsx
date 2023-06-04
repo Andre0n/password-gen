@@ -1,8 +1,10 @@
 import { ArrowSquareUpRight } from '@phosphor-icons/react';
+import PasswordGenerator from './components/PasswordGenerator';
 
 export default function App() {
   return (
     <main className="flex h-screen flex-col items-center justify-between bg-gray-900 p-4">
+      <PasswordGenerator />
       <footer>
         <span className="text-sm text-white">
           Created with ❤️ by{' '}
